@@ -6,15 +6,18 @@ Indie hacker building creator tools and AI-powered platforms.
 
 A free library of AI-generated music, sound effects, and images for content creators.
 
-- 🎼 **2,000+ royalty-free tracks** — no Content ID claims, commercial use OK
+- 🎼 **2,000+ royalty-free tracks** — no Content ID claims
 - 🔌 **Free developer API** — integrate music into your app ([docs](https://freemusiclab.ai/docs))
 - ⬆️ **Community uploads** — share your own AI music ([upload](https://freemusiclab.ai/upload))
 - 🌐 Built with Next.js, Supabase, Cloudflare R2
 
-### Why?
-After getting my YouTube videos claimed for using "royalty-free" tracks, I built a platform where every track is AI-generated — meaning it can't exist in any Content ID database.
+### Generation source
+First-party tracks are generated with [Google Lyria](https://deepmind.google/technologies/lyria/) via Vertex AI / Gemini API. Commercial use is permitted under Google's [Generative AI Terms](https://policies.google.com/terms/generative-ai). Every track carries a SynthID watermark for AI-content disclosure compliance.
 
-[→ Browse free music](https://freemusiclab.ai/browse) · [→ Read the blog](https://freemusiclab.ai/blog) · [→ API docs](https://freemusiclab.ai/docs)
+### Why?
+After getting my YouTube videos claimed for using "royalty-free" tracks that turned out to be in Content ID, I built a platform with a cleaner legal foundation: a licensed AI model (Lyria) with Google's indemnification, so creators can use the tracks with confidence.
+
+[→ Browse free music](https://freemusiclab.ai/browse) · [→ Read the blog](https://freemusiclab.ai/blog) · [→ License](https://freemusiclab.ai/license) · [→ API docs](https://freemusiclab.ai/docs)
 
 ---
 
@@ -34,7 +37,7 @@ All background music sourced from [FreeMusicLab.ai](https://freemusiclab.ai).
 **Frontend**: Next.js, React, TypeScript, Tailwind
 **Backend**: FastAPI, Supabase, PostgreSQL, SQLite
 **Infra**: Cloudflare (Pages, R2, Tunnel), Docker
-**AI/ML**: Gemini, AI music generation pipelines
+**AI/ML**: Google Lyria (Vertex AI), Gemini API
 **Monitoring**: Sentry, Google Analytics 4
 
 ---
@@ -43,6 +46,7 @@ All background music sourced from [FreeMusicLab.ai](https://freemusiclab.ai).
 
 - 🌐 Website: [freemusiclab.ai](https://freemusiclab.ai)
 - 📝 Blog: [freemusiclab.ai/blog](https://freemusiclab.ai/blog)
+- 📄 License: [freemusiclab.ai/license](https://freemusiclab.ai/license)
 
 ---
 
