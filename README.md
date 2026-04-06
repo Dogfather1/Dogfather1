@@ -21,6 +21,13 @@ After getting my YouTube videos claimed for using "royalty-free" tracks that tur
 
 ---
 
+
+### 🎧 Listen on Streaming Platforms
+JINRO Music is now on Spotify, Apple Music, YouTube Music, and 20+ platforms:
+[→ Browse all tracks on HyperFollow](https://distrokid.com/hyperfollow/jinromusic/raindrop-latte)
+
+---
+
 ## 🎬 YouTube Channels
 
 Running an automated 3-channel music content pipeline:
